@@ -1,1 +1,1 @@
-# CottageRentalWebsite
+# Cottage Rental Website
