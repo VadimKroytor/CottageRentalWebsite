@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+</head>
+
+
+<body>
+  <div id="main-container">
+
+
+    <nav id="navbar-example2" class="navbar navbar-fixed-top position-fixed bg-body-tertiary px-3 mb-3 bg-white">
+      <a class="navbar-brand" href="#">1045 Big Island Road Cottage Rental</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#img-container">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Get
+            in Touch</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#pricing-and-contact">Pricing</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#pricing-and-contact">Contact Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+
+    <div id="img-container">
+
+
+      <img id="cottage-picture" alt="Cottage Picture" src="./imgs/Cottage.jpeg">
+
+
+      <div id="img-text">
+        <p>1045 Big Island Road </p>
+        <p> 3 Bedroom, 1 Bathroom Cottage</p>
+      </div>
+
+
+    </div>
+
+
+    <h1> About the Cottage</h1>
+    <div id="about-us">
+
+
+      <div class="card animation">
+        <img src="imgs/prospectlake.jpeg" class="card-img-top" alt="...">
+
+
+        <div class="card-body">
+          <h5 class="card-title">A beautiful view</h5>
+          <p class="card-text"> A five minute walk away from Prospect Lake to brighten up your day. </p>
+
+
+        </div>
+      </div>
+      <div class="card animation">
+        <img src="imgs/kitchen.jpeg" class="card-img-top" alt="...">
+
+
+        <div class="card-body">
+          <h5 class="card-title">Packed with a spacious kitchen</h5>
+          <p class="card-text"> A stove, fridge, and excited cabinets are eagerly waiting to be used. </p>
+
+
+        </div>
+      </div>
+      <div class="card animation">
+        <img src="imgs/Diningroom.jpeg" class="card-img-top" alt="...">
+
+
+        <div class="card-body">
+          <h5 class="card-title">A dining room to complement the kitchen</h5>
+          <p class="card-text"> The dining room is prepared for a feast for wandering companions. </p>
+
+
+        </div>
+      </div>
+      <div class="card animation">
+        <img src="imgs/snowcottage.jpeg" class="card-img-top" alt="...">
+
+
+        <div class="card-body">
+          <h5 class="card-title">And much more</h5>
+          <p class="card-text">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              As seen here
+            </button>
+
+
+            <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">What this place offers</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Towels, bed sheets, soap, and toilet paper</li>
+                    <li class="list-group-item">Extra pillows and blankets</li>
+                    <li class="list-group-item">TV</li>
+                    <li class="list-group-item">Heater</li>
+                    <li class="list-group-item">Smoke alarm</li>
+                    <li class="list-group-item">Fire extinguisher</li>
+                    <li class="list-group-item">Wifi</li>
+                    <li class="list-group-item">Kitchen</li>
+                    <li class="list-group-item">Refrigerator</li>
+                    <li class="list-group-item">Dishes and silverware</li>
+                    <li class="list-group-item">Stove and Oven</li>
+                    <li class="list-group-item">Kitchen</li>
+                    <li class="list-group-item">Patio</li>
+                    <li class="list-group-item">Backyard</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Got it</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div id="pricing-and-contact">
+      <h1> Pricing & Contact Us</h1>
+      <div class="break"></div>
+
+
+      <div id="price-container">Highlight the days which you'de like to stay
+        at $300/day, and you can then proceed to pay.
+      </div>
+
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" id="payment-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Proceed to Pay
+      </button>
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Payment Form</h5>
+             
+            </div>
+            <div class="modal-body">
+
+
+              <!--
+              <p class="bold"> Payment Amount:</p>
+              <p id="payment-amount"></p>
+              -->
+
+              <form>
+                <label for="card-name" class="bold">Cardholder Name:</label><br>
+                <input type="text" id="card-name" name="card-name"><br>
+
+
+                <label for="card-number" class="bold">Card Number:</label><br>
+                <input type="number" id="card-number" name="card-number"><br>
+
+
+                <label for="expiry-date" class="bold">Expiry Date:</label><br>
+                <input type="text" id="expiry-date" name="expiry-date"><br>
+
+
+                <label for="security-code" class="bold">Security Code:</label><br>
+                <input type="number" id="security-code" name="security-code"><br>
+
+
+                <input type="submit" value="Accept" id="submit-btn">
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="calendar-container">
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">
+              <h1></h1>
+              <h2>
+                </h1>
+
+
+                <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+          </div>
+          <div class="days"></div>
+        </div>
+      </div>
+
+
+
+
+      <div id="contact-container"> If there are any questions, please contact me at 1045BigIslandRoad@gmail.com</div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+
+
